@@ -27,7 +27,7 @@ module settlement() {
 			rotate([0,45,100]) translate([0,-7,2*hBase]) cube(size=[5,9,5], center=true);
 			translate([8,-13,0]) rotate([0,45,55]) translate([0,7,2*hBase]) cube(size=[5,8,5], center=true);
 
-			translate([-13, -5,2*hBase]) rotate(-45) linear_extrude(height=1, center=true, convexity=10, scale=1)
+			translate([-13, -5,2*hBase-0.5]) rotate(-45) linear_extrude(height=1, center=true, convexity=10, scale=1)
 			text("+1", size=8, font="Times New Roman");
 		}
 
