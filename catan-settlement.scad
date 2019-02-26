@@ -35,7 +35,7 @@ module settlement() {
 		union(){
 			translate([0,0,-1]) rotate([0,45,82]) translate([0,5,2*hBase]) cube(size=[5,10,5], center=true);
 			translate([0,0,-1]) rotate([0,45,100]) translate([0,-5,2*hBase]) cube(size=[5,10,5], center=true);
-			translate([6,-10,-1]) rotate([0,45,55]) translate([0,7,2*hBase]) cube(size=[5,10,5], center=true);
+			translate([5,-10,-1]) rotate([0,45,55]) translate([0,7,2*hBase]) cube(size=[5,10,5], center=true);
 		}
 	}
 	cylinder(h=hBase, r=radBase, center=true, $fn=50);
